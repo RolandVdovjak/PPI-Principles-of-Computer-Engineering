@@ -1,0 +1,11 @@
+# prevodník z BCD84-2-1 do 2z5
+A = (!b&!c&d) | (!b&c&!d) | (a&b) | (a&!c&!d);
+
+B = (b&!c) | (a&b) | (!b&c&d);
+
+C = (!a&c) | (!b&c&d) | (a&!c&!d);
+
+D = (!b&!c&d) | (b&!d) | (!a&!b);
+
+E = (!b&c&!d) | (!a&d) | (!a&!b);
+
